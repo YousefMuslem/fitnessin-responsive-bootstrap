@@ -1,0 +1,49 @@
+body {
+    height: 10000px
+}
+.header {
+    position: absolute
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(156,156,155)
+}
+
+.active a{
+    color: rgb(88,11,17)!important;
+}
+.navbar-nav a {
+    font-weight: bolder
+}
+.navbar-nav a:hover {
+    color:#771D22!important;
+    transition:.8s ;
+}
+.img-parag {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: red
+}
+/* Start styling Read More Button*/
+.header .btn-link {
+    position: absolute;
+    top:70%;
+    left: 42%;
+    text-decoration:none;
+    background-color: #771D22;
+    border-radius: 50px;
+    color: rgb(156,156,155);
+    font-weight: bolder;
+    font-size: 20px;
+    width: 250px;
+    height: 60px;
+    border: 1px solid #771D22
+}
+/* End styling Read More Button*/
+.header button:hover {
+    background-color: transparent;
+    transition: .8s;
+}
+
+
+
