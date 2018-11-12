@@ -11,7 +11,7 @@
   "author": "Yousef Muslem",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.2.2"
+  "lite-server": "^2.0.10"
   },
   "dependencies": {
     "bootstrap": "^4.1.1",

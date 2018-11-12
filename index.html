@@ -26,7 +26,7 @@
                     <div class="collapse navbar-collapse" id="navBar">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active ml-4 font-weight-bold"><a class="nav-link " href="#">HOME</a></li>
-                            <li class="nav-item ml-4"><a class="nav-link" href="#">ABOUT</a></li>
+                            <li class="nav-item ml-4"><a class="nav-link" href="#aboutUs">ABOUT</a></li>
                             <li class="nav-item ml-4"><a class="nav-link" href="#">SERVICES</a></li>
                             <li class="nav-item ml-4"><a class="nav-link" href="#">TRAINERS</a></li>
                             <li class="nav-item ml-4"><a class="nav-link" href="#">GALLERY</a></li>
@@ -37,18 +37,92 @@
             </div>
             <!--End Navbar-->
             <p class="lead img-parag d-none d-md-block text-white font-weight-bold">LOREM IPSUM DOLOR SIT AMET</p>
-            <button type="button" class="btn btn-link d-none d-md-block">Read More</button>
+            <button type="button" class="btn btn-link d-none d-md-block" onclick=showLoginModal()>Read More</button>
         </div>
-        
-    </nav>
+
+       </div>
+   </div>
+</nav>
+
+<!--Start Modal S1-->
+<div id="readMore" class="modal fade modal-open " role="dialog">
+   <div class="modal-dialog modal-lg" role="content">
+       <div class="modal-content">
+           <div class="modal-header">
+               <h4 class="modal-title">Fitness in</h4>
+               <button type="button" class="close" data-dismiss="modal">
+                   &times;
+               </button>
+           </div>
+           <div class="modal-body">
+            <p class="lead">
+
+            </p>
+               Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. Suspendisse ultrices hendrerit massa. Nam id metus id tellus ultrices ullamcorper. Cras tempor massa luctus, varius lacus sit amet, blandit lorem. Duis auctor in tortor sed tristique. Proin sed finibus sem   
+           </div>
+       </div>
+   </div>
+</div>
+<!--End Modal S1-->
     <!--End Header-->
-    <div class="container">
-        <div class="row row-content mb-5 mt-5">
-                Proin ultrices hendrerit massa, vitae convallis diam aliquam sit amet. Sed sit amet nulla vestibulum<br>
-                Proin ultrices hendrerit massa, vitae convallis diam aliquam sit amet. Sed sit amet nulla vestibulum<br>
-                Proin ultrices hendrerit massa, vitae convallis diam aliquam sit amet. Sed sit amet nulla vestibulum
+  
+    <!-- Start Section-->
+    
+    <section class="container about-us" id="aboutUs">
+        <h2 class="text-center">ABOUT US</h2>
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <img src="./images/aboutimg.jpg">
+            </div>
+
+            <div class="col-lg-6 col-sm-12">
+
+                
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-1">
+                                    <i class="fa fa-cog"></i>
+                            </div>
+                            <div class="col-11">
+                                <h4>Suspendisse consectetur dapibus volutpat.</h4>
+                                <p class="lead">Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
+                            </div>
+                        </div>
+               
+                    </div>
+
+
+                    <div class="col-12">
+                            <div class="row">
+                                <div class="col-1">
+                                        <i class="fa fa-heart"></i>
+                                </div>
+                                <div class="col-11">
+                                    <h4>Suspendisse consectetur dapibus volutpat.</h4>
+                                    <p class="lead">Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
+                                </div>
+                            </div>
+                   
+                        </div>
+
+
+                        <div class="col-12">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <i class="fa fa-paper-plane"></i>
+                                    </div>
+                                    <div class="col-11">
+                                        <h4>Suspendisse consectetur dapibus volutpat.</h4>
+                                        <p class="lead">Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
+                                    </div>
+                                </div>
+                       
+                            </div>
+            </div>
         </div>
-    </div>
+    </section>
+    <!--End Section-->
+
 
     <!--Start footer-->
         <footer class="footer">
@@ -73,7 +147,9 @@
                         <div class="text-center">
                             <a class="btn btn-social-icon btn-google"   href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
                             <a class="btn btn-social-icon btn-facebook"   href="https://www.facebook.com/yousef.muslam.9" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
-                            <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/yousef-muslem-94ab06172/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
+                            <a class="btn btn-social-icon btn-linkedin" href="www.linkedin.com/in/yousefmuslem" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
+
+                            
                             <a class="btn btn-social-icon btn-twitter"  href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
                             <a class="btn btn-social-icon btn-youtube"  href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
                             <a class="btn btn-social-icon " href="mailto:y.muslem.1994@gmail.com"><i class="fa fa-envelope-o fa-lg"></i></a>
@@ -89,8 +165,6 @@
             </div>
             
         </footer>
-
-
 
     <!--End footer-->
     <!--JQuery First, then Popper.js, then Bootstrap JS, then costum JS-->

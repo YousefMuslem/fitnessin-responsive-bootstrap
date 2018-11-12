@@ -19,4 +19,8 @@ $(document).ready(function () {
                }
     });
     //End navbar setting background color
-})
+});
+
+function showLoginModal() {
+    $('#readMore').modal('toggle');
+}
