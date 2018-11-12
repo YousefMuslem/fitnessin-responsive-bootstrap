@@ -20,9 +20,3 @@ $(document).ready(function () {
     });
     //End navbar setting background color
 })
-function on() {
-    document.getElementById("overlay").style.display = "block";
-}
-function off() {
-    document.getElementById("overlay").style.display = "none";
-}

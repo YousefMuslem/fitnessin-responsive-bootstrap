@@ -1,9 +1,4 @@
-body {
-    height: 10000px
-}
-.header {
-    position: absolute
-}
+
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(156,156,155)
 }
@@ -45,5 +40,40 @@ body {
     transition: .8s;
 }
 
+
+/* Start styling footer*/
+footer {
+    background-color: #212121;
+    color: rgb(156,156,155);
+    padding: 30px
+}
+footer h4 {
+    color: #771D22
+}
+.footer address span {
+    line-height: 30px
+}
+footer a  i:hover{
+    color: #771D22;
+    transition: 0.8s
+}
+
+.footer img {
+    width: 5%;
+    height: 5%
+}
+.footer a {
+    text-decoration: none;
+    color:rgb(156,156,155)
+}
+.footer a:hover {
+    color: #771D22;
+    transition: 0.8s
+}
+footer .rights {
+    color: #771D22;
+    margin-top: 50px
+}
+/*End Styling footer*/
 
 
