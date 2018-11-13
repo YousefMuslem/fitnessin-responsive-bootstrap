@@ -46,7 +46,7 @@
 }
 
 /*Start Section*/
-
+/* Start about us*/
 .about-us img {
     width: 100% ;
     margin-bottom: 30px
@@ -76,6 +76,44 @@
     border-radius: 50%;
     padding: 1.2em 0px 0px;
 }
+/* End about us*/
+
+/* Start Our Services*/
+.our-services-container {
+    padding: 30px;
+    margin: 4em 0;
+}
+.services-grid {
+    margin-top: 4em;
+   
+}
+.services-grid h3 {
+    font-size: 30px
+}
+.services-grid h3:hover{
+    color: #942121;
+    cursor: pointer;
+}
+.services-grid  p {
+    color: rgb(156,156,155)
+}
+.services-grid .services-item {
+    height: 300px;
+    background-color:#FFF;
+    box-shadow: 3px 5px #888888;
+    border: 1px rgb(66, 64, 64)
+}
+.services-grid .services-item:hover {
+    height: 300px;
+    background-color:#FFF;
+    box-shadow: 3px 5px #942121;
+    border: 2px solid #942121;
+    transition: .5s
+}
+.services-item-content {
+    margin-top: 115px ;
+}
+/* End Our Services*/
 
 /*End Section*/
 
