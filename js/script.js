@@ -3,7 +3,7 @@ $(document).ready(function () {
     var newHeight = $(window).innerHeight()  + "px";
     var newWidth = $(window).innerWidth() + "px";
     $(".img-fluid").css("height", newHeight);
-    $(".img-fluid").css("width" , newWidth);
+    $(".img-fluid").css({"width":newWidth,"backgroundSize":"cover"});
     //End getting window size
 
     //set background color for navbar when scroll bacome after image
@@ -19,6 +19,13 @@ $(document).ready(function () {
                }
     });
     //End navbar setting background color
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.12),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
 });
 
 function showLoginModal() {
